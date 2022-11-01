@@ -25,7 +25,4 @@ io.on('connection', function (socket) {
     socket.emit('msg', `Server : "${data}" 받았습니다.`);
   });
 
-  socket.emit('msg', `${socket.id} 연결 되었습니다.`);
-  socket.emit('msg', `${socket.id} 연결 되었습니다.`);
-
 });
